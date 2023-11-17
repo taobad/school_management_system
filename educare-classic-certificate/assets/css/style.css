@@ -1,0 +1,41 @@
+/*
+* Contributors:       FixBD
+* Author URI:         http://fixbd.net
+* Source:             https://fixbd.net/educare/add-ons/certificate/default-certificate-template
+* License:            Commercial License (based on plugin)
+* version:            1.0.0
+*/
+
+@font-face {
+  font-family: 'Certificate';
+  src: url('font/certificate.ttf') format('woff2')
+}
+@font-face {
+  font-family: 'Aspire';
+  src: url('font/AspireDemibold-YaaO.ttf') format('woff2')
+}
+@font-face {
+  font-family: 'SnellBT';
+  src: url('font/SnellBT-Regular.otf') format('woff2')
+}
+.classic-certificate .cert-container {
+  background-color: rgb(255, 250, 210, 0.18) !important
+}
+
+.classic-certificate .cert-container {
+  font-family: "Certificate", Georgia, serif;
+}
+.classic-certificate #cert-body h1 {
+  font-size: 28px !important;
+}
+.classic-certificate .student-name {
+  font-family: "Aspire", Georgia, serif !important;
+}
+.classic-certificate .exam-name {
+  font-family: "Certificate", Georgia, serif;
+  font-size: 24px !important;
+  text-transform: uppercase;
+}
+.classic-certificate .cert-bottom {
+  font-family: "SnellBT", Georgia, serif;
+}

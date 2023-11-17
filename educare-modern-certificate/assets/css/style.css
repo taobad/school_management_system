@@ -1,0 +1,30 @@
+/*
+* Contributors:       FixBD
+* Author URI:         http://fixbd.net
+* Source:             https://fixbd.net/educare/add-ons/certificate/default-certificate-template
+* License:            Commercial License (based on plugin)
+* version:            1.0.0
+*/
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('font/GreatVibes-Regular.ttf') format('woff2')
+}
+@font-face {
+  font-family: 'Alice';
+  src: url('font/Alice-Regular.ttf') format('woff2')
+}
+
+.modern-certificate .cert-container {
+  font-family: "Alice", Georgia, serif;
+}
+.modern-certificate #cert-body h1 {
+  font-size: 52px !important;
+}
+.modern-certificate .student-name {
+  font-family: "Great Vibes", Georgia, serif !important;
+}
+.modern-certificate .exam-name {
+  font-size: 28px !important;
+  text-transform: uppercase;
+}
